@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Research Logbook </title>
+    <link rel="stylesheet" type:"text/css" href="../styles/style1.css">
+</head>
+<body>
+    <nav>
+        <img id="logo" src="../image/logo.png"/>
+        <div class="topnav">
+           <a href="/">Home</a>
+           <a onclick="Login()"> Check Out the Logbook! </a>
+           <script>
+              function Login() {
+                 window.open('/Research');
+              }
+           </script>
+        </div>
+     </nav>
+    <h1>Logbook Entries</h1>
+    <div id="logbook-container"></div> 
+    <script src="../scripts/ResearchLog.js"></script> 
+</body>
+</html>

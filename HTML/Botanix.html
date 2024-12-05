@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>Botanix</title>
+       <script defer src="../scripts/authorized.js"></script>
+      <link rel="stylesheet" type:"text/css" href="../styles/style1.css">
+   </head>
+   <body> 
+      <nav>
+         <img id="logo" src="../image/logo.png"/>
+         <div class="topnav">
+            <a href="#">Home</a>
+             <a onclick="Logbook()"> Logbook Here! </a>
+            <script>
+            function Logbook() {
+            window.open('/Logbook');
+         }
+            </script>
+         </div>
+      </nav>
+         <div class="content">
+            <h3> Register here! </h3>
+         <form id="login-form">
+            <h1> Halo! </h1>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br>
+               <label for="password">Password:</label>
+               <input type="password" id="password" name="password" required>
+            <br>
+               <button type="submit">Login</button>
+         </form>
+         </div>
+           <p id="protected-content"></p>
+            <div id="response" style="display: none;">
+               <button onclick="Login()"> Check Out the Logbook! </button>
+           <script>
+              function Login() {
+                 window.open('/Research');
+              }
+           </script>
+            </div>
+               </script>  
+
+           </div>
+    <div class="container">
+      <form action="/api/register" method="POST">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" placeholder="Enter your username">
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password">
+      <button type="submit"> Register </button>
+     </form>
+   </div>
+   </body>
+</html>

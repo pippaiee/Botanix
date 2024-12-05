@@ -1,0 +1,217 @@
+* { margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+}
+
+body {
+    background-color: #92c3a5;
+}
+
+h1 {
+  display: block;
+  z-index: 1000;
+  position : sticky;
+  color: #568366;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
+
+h3{
+  display: block;
+  z-index: 1000;
+  position : sticky;
+  color: #f8fae5;
+  text-align: left;
+  margin-top: 90px;
+  margin-left: 10px;
+}
+
+#LogbookForm {
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: #ffce55;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+  }
+
+  #LogbookForm label {
+      width: 100%;
+      padding: 10px 0;
+      font-size: 16px;
+      color: black;
+      margin-bottom: 30px;
+      border: none;
+      border-bottom: 1px solid #f3f6eb;
+      outline: none;
+      background: transparent;
+    }
+
+    #LogbookForm label {
+      position: sticky;
+      top:0;
+      left: 0;
+      padding: 10px 0;
+      font-size: 16px;
+      color: black;
+    }
+
+nav {
+  background-color: #f8fae5;
+  position: fixed;
+  top: 0;
+  height: 10%;
+  width: 100%;
+  z-index: 1000;
+  display: block;
+  padding: 0 0px;
+  margin-bottom: 0%;
+}
+
+#logo {
+display: fixed;
+width: 10vw;
+height: 10vw;
+height: auto;
+}
+
+.topnav {
+  position: fixed;
+  list-style: block;
+  display: inline-flex;
+  justify-content: center;
+
+}
+.topnav {
+position: fixed;
+margin: 0 5px;
+}
+
+.topnav a {
+  color: #568366;
+  text-decoration: none;
+  padding: 10px 10px;
+  display: block;
+  height: 50%;
+  text-align: center;
+ }
+
+nav .topnav a:hover {
+  background-color: #ffce55;
+  border-radius: 2px;
+}
+
+#login-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: #ffce55;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  #login-form h1 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #568366;
+    text-align: center;
+  }
+  
+  #login-form {
+    position: absolute;
+  }
+  
+  #login-form input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #f3f6eb;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #f3f6eb;
+    outline: none;
+    background: transparent;
+  }
+  #login-form label {
+    position: sticky;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #f3f6eb;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .container form {
+    top: 100px;
+    left: 0;
+
+    font-size: 12px;
+  }
+  
+  .container form {
+    position: fixed;
+    display: block;
+    padding: 10px 10px;
+    color: #f8fae5;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 1%;
+    margin-bottom: 20px;
+    letter-spacing: 4px;
+  }
+  .container { 
+    display: block;
+    padding-top: 50px;  
+    padding: 20px;
+  margin-bottom: 20px
+  ;  }
+
+  #logbook-container{
+    display: flex;
+    margin-inline: 10px 10px 10px 10px;
+  }
+
+  .logbook-entry {
+    background: #ffce55;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-inline: 20px;
+  }
+
+  #logbook-container h3 {
+    margin-inline-end: 30px;
+    color: #568366;
+}
+
+  #logbook-container p {
+padding: 10px 10px 10px 10px;
+margin-inline-end: 20px;
+  }
+
+    #protected-content{
+    position: static;
+    display: block;
+    color: #f8fae5;
+    padding-top: 100px;
+  }
+  #response {
+    position: static;
+    display: block;
+    color: #f8fae5;
+    padding-top: 100px;
+  }

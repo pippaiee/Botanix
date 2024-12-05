@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Logbook Entry</title>
+    <link rel="stylesheet" type:"text/css" href="../styles/style1.css">
+    
+</head>
+<body>
+    <nav>
+        <img id="logo" src="../image/logo.png"/>
+        <div class="topnav">
+           <a href="/">Home</a>
+           <a onclick="Login()"> Check Out the Logbook! </a>
+           <script>
+              function Login() {
+                 window.open('/Research');
+              }
+           </script>
+        </div>
+     </nav>
+    <h1>Logbook Entry</h1>
+    <form id="LogbookForm">
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+        </div>
+        <div>
+            <label for="activity">Activity:</label>
+            <input type="text" id="activity" name="activity" required>
+        </div>
+        <div>
+            <label for="weather">Weather:</label>
+            <input type="text" id="weather" name="weather" required>
+        </div>
+        <div>
+            <label for="problems">Problems:</label>
+            <textarea id="problems" name="problems" required></textarea>
+        </div>
+        <div>
+            <label for="notes">Notes:</label>
+            <textarea id="notes" name="notes" required></textarea>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+    <script src="../scripts/Entry.js"></script> 
+
+    <button onclick="Login()"> Check Out the Logbook! </button>
+    <script>
+       function Login() {
+          window.open('/Research');
+       }
+    </script>
+
+
+</body>
+</html>
